@@ -1,0 +1,30 @@
+{
+   "qTitle":"Final Question",
+   "qInstructions":"Instructions: Please choose the most fitting response according to the following statement",
+   "qId":"HCI_final_question",
+   "questions":[
+      {
+         "pId":"page1",
+         "qType":"radio",
+         "qInstructions":"Please choose one of the following options...",
+         "qData":[
+            {
+               "qId":"q1",
+               "qText":"I liked this locomotion technique...",
+               "qMandatory":"true",
+               "qOptions":[
+                  "",
+                  "Strongly Disagree",
+                  "Disagree",
+                  "Neutral",
+                  "Agree",
+                  "Strongly Agree",
+                  ""
+               ]
+            }
+         ]
+      }
+   ],
+   "qMessage":"You have completed the questionnaire",
+   "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"
+}
