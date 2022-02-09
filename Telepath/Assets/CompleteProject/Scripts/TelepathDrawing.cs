@@ -11,8 +11,8 @@ using UnityEngine.XR;
         [SerializeField]
         private GameObject _rightHand;
 
-        [SerializeField]
-        private GameObject _leftHand;
+       // [SerializeField]
+        //private GameObject _leftHand;
 
         [SerializeField]
         private LayerMask _layerMask;

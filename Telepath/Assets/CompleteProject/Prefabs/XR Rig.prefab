@@ -114,7 +114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rightHand: {fileID: 1285660847674755903}
-  _leftHand: {fileID: 1285660847871059567}
   _layerMask:
     serializedVersion: 2
     m_Bits: 8
@@ -137,6 +136,7 @@ MonoBehaviour:
   stick: {x: 0, y: 0}
   _rotationSpeed: 1
   _lineHeight: 0.2
+  _maxRayDistance: 1
 --- !u!1 &1285660847674755903
 GameObject:
   m_ObjectHideFlags: 0

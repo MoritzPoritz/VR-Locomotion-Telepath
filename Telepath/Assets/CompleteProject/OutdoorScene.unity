@@ -3307,7 +3307,7 @@ Transform:
   - {fileID: 287112687}
   - {fileID: 1541931659}
   m_Father: {fileID: 878852498}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &118941515
 PrefabInstance:
@@ -4045,6 +4045,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 53ec1bd968802e14b997a32f25e4c11c, type: 3}
   m_PrefabInstance: {fileID: 140450809}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &143545550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143545552}
+  - component: {fileID: 143545551}
+  m_Layer: 0
+  m_Name: CollisionDetectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &143545551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143545550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a4fb1dd6cc76648abb4bd39ca77afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrCamera: {fileID: 1285660847426671292}
+--- !u!4 &143545552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143545550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 256.0446, y: 32.183167, z: 193.63675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &146612079 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bdbd9d7226778fd4b8192cf3df5e028d, type: 3}
@@ -17224,7 +17268,7 @@ Transform:
   - {fileID: 1333667263}
   - {fileID: 982358887}
   m_Father: {fileID: 878852498}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541924283 stripped
 GameObject:
@@ -28760,13 +28804,13 @@ Transform:
   - {fileID: 276558439}
   - {fileID: 1910118836}
   - {fileID: 1863796674}
+  - {fileID: 116095767}
   - {fileID: 971943643}
   - {fileID: 1965755247}
   - {fileID: 95913524}
   - {fileID: 1313531169}
-  - {fileID: 116095767}
-  - {fileID: 1800089081}
   - {fileID: 537409767}
+  - {fileID: 1800089081}
   - {fileID: 496486732}
   - {fileID: 551857887}
   - {fileID: 584238187}

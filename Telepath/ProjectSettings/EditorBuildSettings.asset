@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/CompleteProject/Telepath_Main.unity
     guid: 5d25700299f3e9646bc04847c634270f
-  - enabled: 1
+  - enabled: 0
     path: Assets/CompleteProject/StartScene.unity
     guid: d7d43531be3394d43a0cc5ddcd09582a
-  - enabled: 1
+  - enabled: 0
     path: Assets/CompleteProject/LevelSimple.unity
     guid: d3f689e6773bb47498f7c71b3c7bc7fd
-  - enabled: 1
+  - enabled: 0
     path: Assets/CompleteProject/OutdoorScene.unity
     guid: 68e13eafcee459b4f89a56231e8ef18f
-  - enabled: 1
+  - enabled: 0
     path: Assets/CompleteProject/HCI_VRQuestionnaire.unity
     guid: cd9cd9746e5312a44a3ecd456d438c5a
   m_configObjects:
